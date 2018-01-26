@@ -18,7 +18,7 @@ end
 
 def long_planeteer_calls(w_array)
   i = 0
-  while i < w_array
+  while i < w_array.length
     if w_array[i].size > 4
       return false
       i+=1
