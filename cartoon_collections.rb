@@ -18,13 +18,14 @@ end
 
 def long_planeteer_calls(w_array)
   i = 0
+  t_array = []
   while i < w_array.length
     if w_array[i].size > 4
-      return false
+      return true
     end
     i+=1
   end
-  return true
+  return false
 end
 
 def find_the_cheese# code an argument here
