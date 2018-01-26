@@ -16,8 +16,13 @@ def summon_captain_planet(p_array)
   return cp_array
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(w_array)
+  i = 0
+  while i < w_array
+    if w_array[i].length > 4
+      return false
+    end
+  return true
 end
 
 def find_the_cheese# code an argument here
