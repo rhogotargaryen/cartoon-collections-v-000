@@ -36,5 +36,5 @@ def find_the_cheese(f_array)
       return f_array[i]
     end
     i+=1
-  end  
+  end
 end
