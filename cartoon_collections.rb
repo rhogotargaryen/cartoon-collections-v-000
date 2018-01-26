@@ -37,7 +37,7 @@ def find_the_cheese(f_array)
     elsif f_array[i] == cheese_types[2]
       return f_array[i]
     elsif f_array[i] == cheese_types[3]
-      return f_array[i]      
+      return f_array[i]
     end
     i+=1
   end
